@@ -1,0 +1,208 @@
+@charset "utf-8";
+
+
+body {
+
+    font-family: serif; 
+
+    font-size: 16px;
+
+    margin: 10px;
+
+    margin-right: 10px;
+
+}
+
+
+p {
+    font-family: serif;
+
+    color: rgb(170, 84, 228);
+
+   
+    line-height: 48px;
+
+  
+    text-align: center; 
+
+}
+
+
+
+
+.hoken {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  text-align: center; 
+  margin: 0px;;
+  padding: 0px;
+}
+.hoken:before, .hoken:after {
+  border-top: 1px solid;
+  content: "";
+  width: 20em; 
+}
+.hoken:before {
+  margin-right: -7em; 
+}
+.hoken:after {
+  margin-left: -7em; 
+}
+
+
+    
+
+
+.flex-container {
+    display: flex;
+    flex-flow: row; 
+    flex-flow: column; 
+}
+main{
+    margin: 0 10px;
+    padding: 0 8px;
+}
+
+.box {
+    background:#eac7ea;
+    border:#b705f8 2px dashed; 
+    box-shadow: 0 0 0 6px #d676f5; 
+    padding: 10px;
+    margin: 20px;
+    width: 450px;
+
+    }
+
+.box p {
+  padding: 10px;
+  margin:0px;
+
+}
+
+
+ .sayaka {
+     display: flex;
+    
+    padding:  10px;          
+}
+ 
+.kakehashi {
+    padding: 10px;
+    color:  #fff;            
+    margin:  10px;            
+    border-radius:  5px;     
+}
+ 
+.a {
+    background:#eac7ea;
+    border:#b705f8 2px dashed; 
+    box-shadow: 0 0 0 6px #d676f5; 
+    padding:10px; 
+    }
+
+.a p {
+    margin:0;
+    padding:0;
+    }
+
+
+
+
+    .sayaka{
+        overflow-x: scroll;
+        padding: 10px;
+        border: 1px solid rgb(252, 250, 250);
+    }
+
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+      
+      a{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+      }
+      .nogi {
+        display: flex;
+        width: 500px;
+      }
+      
+      .nogi > li {
+        position: relative;
+        width: 100px;
+        border-right: 1px solid #b30bf5;
+      }
+      .nogi > li:first-child{
+        border-left: 1px solid #b30bf5;
+      }
+      
+      .nogi a {
+        display: block;
+        line-height: 1;
+        z-index: 1;
+      }
+      
+      .nogi a {
+        padding: 0.5em 0;
+        font-size: 16px;
+        color: #b30bf5;
+        text-align: center;
+      }
+      .saka {
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        top: 2em;
+        width: 100%;
+        min-height: 0;
+        height: 0px;
+        z-index: 3;
+        transition: min-height 0.5s;
+      }
+      .saka > li > a {
+        font-size: 16px;
+        color: #fff;
+        line-height: 1.75;
+        background-color: #d7bbe1;
+      }
+      .saka > li > a:hover {
+        background-color: #c66aeb;
+        opacity: 1;
+      }
+      .saka.active {
+        min-height: 1000px;
+      }
+      
+
+
+.sa-chan {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px 
+}
+
+.sa-chan {
+    position: relative;
+    margin: 2em 0 2em 40px;
+    padding: 15px 15px 0.5px 15px;
+    background: #deaff2; 
+    border-radius: 30px;
+  }
+  
+  .okake {
+    text-align: center;
+  }
+
+ 
+
+      
+      
+
+
+
+      
+    
